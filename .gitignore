@@ -1,0 +1,14 @@
+# Database & Secrets (Never push production passwords)
+db_config.local.php
+.env
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary logs & uploads
+*.log
+uploads/*
+!uploads/.gitkeep
